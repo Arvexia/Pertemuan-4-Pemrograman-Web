@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Challenge_24.11.6282</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        .book-table { border-collapse: collapse; margin-bottom: 20px; }
+        .form-table td { padding: 5px; vertical-align: top; }
+    </style>
+</head>
+<body>
+
+    <h1>Challenge_24.11.6282</h1>
+
+    <table border="1" class="book-table">
+        <tr bgcolor="orange">
+            <th colspan="4">Daftar Buku</th>
+        </tr>
+        <tr>
+            <td rowspan="3">
+                <img src="Pemrog web.png" alt="Cover Buku" width="100">
+            </td>
+            <td>judul</td>
+            <td>:</td>
+            <td>Web Programming</td>
+        </tr>
+        <tr>
+            <td>harga</td>
+            <td>:</td>
+            <td>Rp. 245.000,00</td>
+        </tr>
+        <tr>
+            <td>pengarang</td>
+            <td>:</td>
+            <td>John Dean</td>
+        </tr>
+    </table>
+
+    <p><strong>Isilah formulir dibawah ini</strong></p>
+
+    <form action="#" method="get">
+        <table class="form-table">
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama" placeholder="Nama Kamu" size="30"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="sex" value="male" checked> Laki - Laki
+                    <input type="radio" name="sex" value="female"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="baca"> Membaca Buku
+                    <input type="checkbox" name="hobi" value="tulis" checked> Menulis
+                    <input type="checkbox" name="hobi" value="mancing"> Memancing
+                </td>
+            </tr>
+            <tr>
+                <td>Asal Kota:</td>
+                <td>
+                    <select name="kota">
+                        <option value="semarang">Semarang</option>
+                        <option value="yogyakarta">Yogyakarta</option>
+                        <option value="jakarta">Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar Anda:</td>
+                <td>
+                    <textarea name="komentar" cols="30" rows="5">Silahkan katakan isi hati anda</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Mulai Proses!">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
