@@ -1,0 +1,183 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 10px 0px;
+        }
+
+        .header-img{
+            width: 40%;
+            height: auto;
+        }
+
+        .header h1 {
+            font-size: 40px;
+        }
+
+       
+        .navbar {
+            background: #999;
+            padding: 10px;
+            text-align: right;
+        }
+
+        .navbar a {
+            color: black;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+      
+        .container {
+            display: flex;
+        }
+
+     
+        .left {
+            width: 30%;
+            background: #8fc7c7;
+            padding: 20px;
+        }
+
+        .left img {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+   
+        .right {
+            width: 70%;
+            padding: 20px;
+            background: #f2f2f2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #6fb3b3;
+        }
+
+
+        .footer {
+            background: #999;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.About {
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: rotate(-90deg);
+    font-size: 60px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.Kiri {
+    width: 60%;
+}
+.Kanan {
+    width: 40%;
+    text-align: center;
+}
+
+.Pekerjaan {
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.deskripsi {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: grey;
+}
+img {
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.Container {
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    border: 2px solid #ddd;
+    position: relative;
+ }
+
+ .btn  {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4da3ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+     margin-top: 10px;
+ }
+
+ .Baris {
+        display: flex;
+        justify-content: space-between;
+ }
+
+ .Box {
+    margin-top: 15px;
+    text-align: left;
+    background: #d3d5d6;
+    padding: 15px;
+ }

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.Parag {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    width: 60%;
+    margin: 0 auto 40px auto; 
+    line-height: 1.6;
+}
+
+
+.gambar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+
+.kiri img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.kanan {
+    display: grid;
+    gap: 20px;
+}
+
+.kanan img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.bawah {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bawah img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+img {
+    border-radius: 8px;
+}
